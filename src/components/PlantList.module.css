@@ -3,7 +3,7 @@
   flex-direction: column;
   gap: 1.25rem;
   padding: 2rem;
-  align-items: center;   /* ← centers the cards */
-  max-width: 1100px;     /* ← same max width as Introduction */
-  margin: 0 auto;        /* ← centers the whole list */
+  align-items: center;  
+  max-width: 1100px;     
+  margin: 0 auto;       
 }

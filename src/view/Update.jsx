@@ -7,7 +7,7 @@ export default function Update() {
   const navigate = useNavigate();
 
   const [plants, setPlants] = useState(() => {
-    const savedPlants = localStorage.getItem("myPlants");  // ← fixed key
+    const savedPlants = localStorage.getItem("myPlants");  
     return savedPlants ? JSON.parse(savedPlants) : [];
   });
 

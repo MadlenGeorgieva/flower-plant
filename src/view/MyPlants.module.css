@@ -5,13 +5,13 @@
   padding: 2rem;
   display: flex;
   flex-direction: column;
-  align-items: center;     /* ← centers search and button */
+  align-items: center;    
   gap: 1rem;
 }
 
 .button {
   width: 100%;
-  max-width: 400px;        /* ← same width as search field */
+  max-width: 400px;       
   text-align: center;
   margin-top: 0.4rem;
   font-size: .9rem;
@@ -54,7 +54,7 @@
   width: 100%;
 }
 
-/* ← ADD THIS: grid wrapper for the plant list */
+
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

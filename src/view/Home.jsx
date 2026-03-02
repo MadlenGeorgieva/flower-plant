@@ -14,7 +14,7 @@ const plants = [
 
 export default function Home() {
   const [filterText, setFilterText] = useState(() => localStorage.getItem('filterTextInStorage') || '');
-  const [filterField, setFilterField] = useState('all'); // NEW
+  const [filterField, setFilterField] = useState('all'); 
 
   useEffect(() => {
     localStorage.setItem('filterTextInStorage', filterText);

@@ -4,13 +4,12 @@
   min-height: 100vh;
   padding: 0;
   text-align: center;
-  /* remove max-width and margin */
 }
 
 main {
   flex: 1;
-  max-width: 1280px;     /* ← move here */
-  margin: 0 auto;        /* ← move here */
+  max-width: 1280px;     
+  margin: 0 auto;      
   width: 100%;
   padding: 0 2rem;
   box-sizing: border-box;

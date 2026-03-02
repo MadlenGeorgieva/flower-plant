@@ -14,7 +14,7 @@
   font-size: 1.3rem;
   color: #2c5f34;
   width: fit-content;
-  margin: 0 auto;          /* ← centers the heading */
+  margin: 0 auto;     
 }
 
 .scientific {
@@ -22,7 +22,7 @@
   font-size: .9rem;
   color: #777;
   width: fit-content;
-  margin: 0 auto;          /* ← centers the scientific name */
+  margin: 0 auto;        
 }
 
 .details {
@@ -30,13 +30,13 @@
   flex-direction: column;
   gap: 0.4rem;
   font-size: 1rem;
-  width: fit-content;      /* ← shrinks to content width */
-  margin: 0 auto;          /* ← centers the block */
+  width: fit-content;     
+  margin: 0 auto;         
 }
 
 .details p {
   margin: 0;
-  text-align: left;        /* ← text aligned left within the block */
+  text-align: left;       
 }
 
 .details span {
