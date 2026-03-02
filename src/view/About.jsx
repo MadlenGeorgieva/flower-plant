@@ -39,13 +39,13 @@ export default function About(){
                 <iframe 
                     width="100%" 
                     height="630" 
-                    src="https://www.youtube.com/embed/GBqHkf5SB4s?si=7nrblTHtMvIDanAU" 
+                    src="https://www.youtube.com/embed/hYOi8jxP4fs?si=lnLn_BDHDrC3SDMf" 
                     title="YouTube video player" 
-                    frameBorder="0" 
+                    frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                    referrerPolicy="strict-origin-when-cross-origin" 
-                    allowFullScreen
-                />
+                    referrerpolicy="strict-origin-when-cross-origin" 
+                    allowfullscreen>
+                    </iframe>
             </div>
         </div>
     )
