@@ -113,19 +113,3 @@
 .button:hover {
   color: white;
 }
-
-
-
-
-
-
-
-@media (max-width: 600px) {
-  .form {
-    padding: 1.5rem 1.25rem;
-  }
-
-  .heading {
-    font-size: 1.4rem;
-  }
-}

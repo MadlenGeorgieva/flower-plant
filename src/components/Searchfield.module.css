@@ -23,19 +23,3 @@
   border-color: #2c5f34;
   box-shadow: 0 0 0 3px rgba(58, 125, 68, 0.15);
 }
-
-
-
-
-
-
-@media (max-width: 600px) {
-  .wrapper {
-    width: 100%;            /* ← full width instead of fixed 400px */
-    padding: 0.5rem 1rem;
-  }
-
-  .input {
-    font-size: 1rem;
-  }
-}

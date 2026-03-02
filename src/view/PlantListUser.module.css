@@ -4,11 +4,3 @@
   gap: 1.25rem;
   width: 100%;
 }
-
-
-
-@media (max-width: 600px) {
-  .list {
-    grid-template-columns: 1fr;   /* ← 1 column instead of 2 */
-  }
-}

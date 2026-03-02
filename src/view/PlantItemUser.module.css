@@ -73,29 +73,3 @@
   background: #fdecea;
   color: #c62828;
 }
-
-
-
-
-@media (max-width: 600px) {
-  .card {
-    flex-direction: column;   /* ← image on top, info below */
-  }
-
-  .image {
-    width: 100%;              /* ← full width instead of 220px */
-    height: 200px;
-  }
-
-  .commonName {
-    font-size: 1.3rem;
-  }
-
-  .scientific {
-    font-size: 1rem;
-  }
-
-  .details {
-    font-size: 1rem;
-  }
-}

@@ -36,30 +36,3 @@
   color: #555;
   line-height: 1.6;
 }
-
-
-
-
-@media (max-width: 600px) {
-  .wrapper {
-    padding: 1rem;
-    gap: 1rem;
-  }
-
-  .image {
-    height: 200px;        /* ← shorter on mobile */
-  }
-
-  .section h1,
-  .section h2 {
-    font-size: 1.3rem;
-  }
-
-  .section p {
-    font-size: 1rem;
-  }
-
-  .videoWrapper iframe {
-    height: 220px;        /* ← shorter video on mobile */
-  }
-}

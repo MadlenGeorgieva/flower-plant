@@ -52,11 +52,3 @@ a:hover {
   .read-the-docs {
     color: #888;
   }
-
-
-
-  @media (max-width: 600px) {
-  main {
-    padding: 1rem;
-  }
-}
