@@ -1,20 +1,23 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  padding: 0;
+  text-align: center;
+  /* remove max-width and margin */
 }
 
 main {
   flex: 1;
-  text-align: left;
-  padding: 2rem;
-}
+  max-width: 1280px;     /* ← move here */
+  margin: 0 auto;        /* ← move here */
+  width: 100%;
+  padding: 0 2rem;
+  box-sizing: border-box;
+} 
 
 body {
+  overflow-x: hidden;
   color: #2c5f34;
 }
 
