@@ -60,7 +60,7 @@ export default function MyPlants() {
     {filteredPlants.length > 0 ? (
       <PlantListUser plants={filteredPlants} setPlants={setPlants}/>
     ) : (
-      <p className={styles.empty}>No plants yet. Click "+ Create Plant" to get started!</p>
+      <p className={styles.empty}>No plants yet. Click "Create Plant" to get started!</p>
     )}
   </div>
 );
