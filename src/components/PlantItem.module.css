@@ -1,0 +1,82 @@
+/* PlantItem.module.css */
+
+.card {
+  display: flex;
+  flex-direction: row;
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 700px;
+}
+
+.image {
+  width: 220px;
+  min-height: 180px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.info {
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  text-align: left;
+}
+
+.commonName {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.scientific {
+  font-style: italic;
+  color: #777;
+  font-size: 1.2rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-size: 1.3rem;
+  color: #444;
+}
+
+.details span {
+  color: #3a7d44;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+  .card {
+    flex-direction: column;   /* ← image on top, info below */
+  }
+
+  .image {
+    width: 100%;              /* ← full width instead of 220px */
+    height: 200px;
+  }
+
+  .commonName {
+    font-size: 1.3rem;
+  }
+
+  .scientific {
+    font-size: 1rem;
+  }
+
+  .details {
+    font-size: 1rem;
+  }
+}

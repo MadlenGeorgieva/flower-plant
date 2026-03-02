@@ -1,0 +1,21 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding: 2rem;
+  align-items: center;   /* ← centers the cards */
+  max-width: 1100px;     /* ← same max width as Introduction */
+  margin: 0 auto;        /* ← centers the whole list */
+}
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+  .list {
+    grid-template-columns: 1fr;   /* ← 1 column instead of 2 */
+  }
+}
