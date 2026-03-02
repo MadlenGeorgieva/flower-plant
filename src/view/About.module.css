@@ -28,11 +28,11 @@
 
 .section h1,
 .section h2 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 .section p {
-  font-size: 1.3rem;
+  font-size: 1rem;
   color: #555;
   line-height: 1.6;
   margin-top: 0.10rem;    /* ← close to h2 */
